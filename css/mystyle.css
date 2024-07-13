@@ -1,0 +1,286 @@
+@charset "UTF-8";
+@import url("Muli/stylesheet.css");
+/* CSS Document */
+.carousel-inner img {
+	-webkit-filter: grayscale(5%);
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+
+.carousel-caption h1 {
+  color: #fff !important;
+font-family:'Welcome 2019';
+	font-size: 200px;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+
+.caption{
+	font-size: 30px; 
+	font-family:'Muli Light'
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+  color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+
+/* Dropdown */
+.open .dropdown-toggle {
+  color: #fff ;
+  background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+  color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+  background-color: #426E6B !important;
+}
+.txt {
+	font-size: 20px;
+	font-family: Muli;
+	text-align: left;
+}
+.container{
+	margin: 50px;
+	font-family: Muli;
+	background-color: 
+		
+		
+	
+}
+.icon{
+	margin-top: 10px;
+}
+
+
+/* Centered text */
+.centered {
+	position: absolute;
+	top: 1272px;
+	left: 647px;
+	transform: translate(-50%, -50%);
+ font-size: 100px;
+	font-family: "Welcome 2019";
+	color: aliceblue
+	
+}
+body{
+	background-color:#F6F1EC;
+}
+
+#AC1{
+	background-image: url(../img/IMG_4053.JPG);
+	width: 100%;
+	top: -271px;
+	padding-top: 102px;
+	margin-top: -40px;
+	left: auto;
+	bottom: -167px;
+	height: 421px;
+	display: inherit;
+	background-size: cover;
+}
+/*.imgFull{
+	width: 100%;
+	margin-top: -141px;
+	margin-left: -157px;
+	margin-bottom: -289px;
+	margin-right: -17px;
+} */
+.headertxt{
+	font-family: "Welcome 2019";
+	font-size: 200px!important;
+	position: absolute;
+	top: 105px;
+	left: 650px;
+	color: white !important;
+}
+.lowertxt{
+	padding-top: 159px;
+	/* [disabled]bottom: 11px; */
+	padding-bottom: 0px;
+	padding-left: 263px;
+	color: white;
+	font-family: Muli;
+	text-shadow: 0px 4px 8px #000000;
+}
+.w3-image{
+	margin-right: 30px !important;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.imgtxt{
+	padding-top: 0px;
+	padding-left: 552px;
+	padding-bottom: 0px;
+	margin-top: -332px;
+	margin-right: 287px;
+	margin-left: 132px;
+	font-family: Muli;
+	text-align: left;
+	font-size: large;
+}
+.container1{
+	min-height: 445px!important;
+	background-color: #E3E0DB;
+	margin-top: -18px;
+}
+.img1{
+	margin-top: 122px;
+	margin-left: 28px;
+}
+.img2{
+	padding-top: 100px;
+	padding-left: 19px;
+	padding-bottom: 0px;
+	top: -314px;
+	left: 70px;
+	right: -266px;
+	margin-top: 18px;
+	margin-left: 1146px;
+	min-width: 0px;
+	margin-bottom: 33px;
+}
+.heading2{
+	margin-top: -230px;
+	padding-top: 0px;
+	padding-left: 146px;
+	padding-bottom: 0px;
+	padding-right: 105px;
+	top: -312px;
+	left: 214px;
+	right: 228px;
+	bottom: -206px;
+	margin-left: -98px;
+	margin-bottom: 65px;
+	margin-right: 734px;
+	text-align: left;
+	font-family: Muli;
+	font-size: medium;
+}
+.content2{
+	margin-top: -207px;
+	margin-left: -32px;
+	margin-right: 822px;
+	padding-left: 71px;
+	margin-bottom: 220px;
+	padding-top: 5px;
+	top: -111px;
+	font-family: Muli;
+	text-align: left;
+	font-size: xx-large;
+	padding-right: 19px;
+}
+#AC2{
+	background-image: url("../img/IMG_4065.JPG");
+	width: 100%;
+	top: -271px;
+	padding-top: 102px;
+	margin-top: -40px;
+	left: auto;
+	bottom: -167px;
+	height: 421px;
+	display: inherit;
+	background-size: cover;
+}
+.img3{
+	padding-top: 0px;
+	margin-top: 134px;
+	margin-left: 1114px;
+}
+.content3{
+	padding-top: 0px;
+	padding-left: 41px;
+	padding-bottom: 104px;
+	padding-right: 0px;
+	top: -12px;
+	margin-top: -348px;
+}
+#AC3{
+	background-image: url("../img/IMG_4071.JPG");
+	width: 100%;
+	top: -271px;
+	padding-top: 102px;
+	margin-top: 262px;
+	left: auto;
+	bottom: -167px;
+	height: 421px;
+	display: inherit;
+	background-size: cover;
+	position: absolute!important;
+}
+.content4{
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-bottom: 67px;
+	margin-right: -126px;
+	font-size: small;
+}
+#copyright{
+	padding-top: 216px;
+}
+#lecture{
+	margin-top: 14px;
+	background-position: 0% 0%;
+	background-size: cover;
+	width: 100%;
+	margin-left: 1px;
+}
+#whattoeatnowimg{
+	background: url(../img/IMG_4085.JPG);
+	background-size: cover;
+	height: 388px;
+	margin-top: 43px;
+	padding-left: 0px;
+	padding-top: 53px;
+	padding-right: 61px;
+}
+#whattoeatnowtxt{
+	padding-top: 1123px;
+	padding-left: 0px;
+	margin-left: -441px;
+	font-size: 170px !important;
+	top: -34px;
+	position: absolute!important;
+}
+@media (max-width: 600px) {
+  #whattoeatnowtxt {
+    display: none; 
+  }
+}
